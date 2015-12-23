@@ -1,6 +1,5 @@
 #include <iostream>
 
-
 #include "easyCLI.h"
 
 using namespace std;

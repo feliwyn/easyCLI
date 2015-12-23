@@ -1,7 +1,6 @@
 // Change font & background color
 // And define a _getch() fonction in linux, like windows.
 
-
 #ifndef EASYCLI_H__
 #define EASYCLI_H__
 
