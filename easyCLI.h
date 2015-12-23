@@ -2,10 +2,10 @@
 // And define a _getch() fonction in linux, like windows.
 
 
-#ifndef CONSOLE_H__
-#define CONSOLE_H__
+#ifndef EASYCLI_H__
+#define EASYCLI_H__
 
-#ifdef __linux__ 
+#ifdef __linux__
 
 #define BLACK       30
 #define RED         31
@@ -26,7 +26,9 @@ static void clear()
  system("clear");
 }
 #define gotoxy(x,y) printf("\033[%d;%df", y, x)
+
 #define color(paramChar, paramBackground) printf("\033[1;%dm""\033[1;%dm", paramChar, paramBackground+10)
+
 static int _getch() {
   struct termios oldt,
                  newt;
@@ -54,7 +56,7 @@ static int _getch() {
 #define CYAN       11
 #define WHITE       15
 
-static void clear() 
+static void clear()
 {
 	system("cls");
 }
