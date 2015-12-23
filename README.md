@@ -1,5 +1,4 @@
-# easyCLI
-Because CLI>GUI
+# easyCLI - Because CLI>GUI
 Allow easy use of Command Line Interface for basic use
 
 #Why this?
@@ -12,6 +11,7 @@ I like Linux. When I learning c++ to school with my teacher. I'm forced to use W
 
 #How To use
 * `_getch()`
-      ```cpp
+
+      ```c++
       int value=_getch();
       ```
