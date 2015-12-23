@@ -1,4 +1,5 @@
-# easyCLI
+## easyCLI
+# Because CLI>GUI
 Allow easy use of Command Line Interface for basic use
 
 #Why this?
