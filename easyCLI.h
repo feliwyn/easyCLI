@@ -16,6 +16,7 @@
 #define CYAN        36
 #define WHITE       37
 
+
 #include <termios.h>
 #include <unistd.h>
 #include <stdio.h>
@@ -54,7 +55,7 @@ static int _getch() {
 #define BLUE       1
 #define PURPLE     5
 #define CYAN       11
-#define WHITE       15
+#define WHITE      15
 
 static void clear()
 {
